@@ -46,7 +46,7 @@ def parse_args():
                         'resnet18', 'resnet34', 'resnet50', 'resnet101', 'resnet152'
                     ],
                     help='model')
-    parser.add_argument('-- ', type=int, default=3, help='bit-width for quantization')
+    parser.add_argument('--bit', type=int, default=3, help='bit-width for quantization')
     parser.add_argument('--seed', default=0, type=int, help='seed')
     parser.add_argument('--eval', action='store_true', help='evaluate the model')
     parser.add_argument('--name', type=str, default=None, help='name of the experiment')

@@ -19,13 +19,13 @@ The implementation quantizes both weights and activations using a learnable step
 
 Models were trained and evaluated at multiple bit-widths to assess the accuracy–compression trade-off introduced by LSQ.
 
-| Precision | Top-1 Accuracy |
-|:---------:|:--------------:|
-| Full Precision (FP32) | 82% |
-| 8-bit | TBD |
-| 4-bit | TBD |
-| 3-bit | 72% |
-| 2-bit | TBD |
+| Precision | Top-1 Accuracy | Top-1 Accuracy |
+|:---------:|:--------------:| :--------------:|
+| Full Precision (FP32) | 82.7% | 96.5% |
+| 8-bit | 78.1% | 94.6% |
+| 4-bit | 76.2% | 94.0% |
+| 3-bit | 72% |  |
+| 2-bit | 60.8% | 85.7% |
 
 *Results will be updated as additional bit-width configurations are trained and evaluated.*
 
