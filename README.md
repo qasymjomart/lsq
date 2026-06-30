@@ -24,7 +24,7 @@ Models were trained and evaluated at multiple bit-widths to assess the accuracyâ
 | Full Precision (FP32) | 82.7% | 96.5% |
 | 8-bit | 78.1% | 94.6% |
 | 4-bit | 76.2% | 94.0% |
-| 3-bit | 72% |  |
+| 3-bit | 72.7% | 92.1% |
 | 2-bit | 60.8% | 85.7% |
 
 *Results will be updated as additional bit-width configurations are trained and evaluated.*
